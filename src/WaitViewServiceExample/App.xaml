@@ -1,0 +1,12 @@
+﻿<Application x:Class="WaitViewServiceExample.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:WaitViewServiceExample"
+             xmlns:vm="clr-namespace:WaitViewServiceExample.ViewModels"
+             StartupUri="Views/MainWindow.xaml">
+    <Application.Resources>
+         <vm:MainViewModel x:Key="MainViewModel"/>
+         <vm:WaiterViewModel x:Key="WaiterViewModel"/>
+         <vm:TableViewModel x:Key="TableViewModel"/>
+    </Application.Resources>
+</Application>
